@@ -1,0 +1,79 @@
+body{
+  background-color: #212529;
+  color: white;
+  display: block;
+  font-family: 'Oxygen', sans-serif;
+}
+a{
+  padding-top: 100px;
+}
+h1{
+  font-family: 'Oxygen', sans-serif;
+}
+.inter-cover{
+  text-align: center;
+  position: absolute;
+  padding-top: 21%;
+  padding-left: 41%;
+  font-family: 'Oxygen', sans-serif;
+}
+.inner{
+  text-align: center;
+}
+.cover-container{
+  max-width: 42em;
+}
+.nav-link{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  padding-left: 1%;
+  padding-bottom: 15px;
+  font-family: 'Oxygen', sans-serif;
+  /*z-index:*/
+}
+#me{
+  padding: inherit;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+/** {
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Permanent Marker', cursive;
+}
+h4{
+  margin: 0px 5px 0px 5px;
+  display: inline-block;
+}
+h1{
+  margin-top: 5px;
+}
+h3{
+  margin-bottom: 5px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.my-name{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+.me{
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.header{
+  background-color: rgba(0, 0, 0, .6);
+}
+.nav-links{
+  text-align: right;
+}*/
