@@ -124,7 +124,7 @@ a{
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Alegreya Sans', Arial, sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -133,8 +133,9 @@ html {
 }
 
 body {
-	color: black;
+	color: white;
 	letter-spacing: .18em;
+  font-family: 'Oxygen', sans-serif;
 }
 
 a {
@@ -146,7 +147,14 @@ ul, li {
 	list-style-type: none;
 }
 
-
+#me{
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
 
 /* NAV STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -264,11 +272,11 @@ nav li a {
 
 nav li:nth-child(odd) a,
 body.fp-viewing-fifthSection-1 #menu li:nth-child(5) a {
-	background: #962D3E;
+	background: rgba(0,0,0,0);
 }
 
 nav li:nth-child(even) a {
-	background: #aa3346;
+	background: rgba(0,0,0,0);
 }
 
 nav li:nth-child(odd) a:hover {
@@ -281,7 +289,7 @@ nav li:nth-child(even) a:hover {
 
 nav li.active a,
 body.fp-viewing-fifthSection-1 #menu li:last-child a {
-  background: #453659;
+  background: rgba(0,0,0,0);
 }
 
 
@@ -368,4 +376,18 @@ h3 {
 	nav li a {
 		padding: 3px;
 	}
+}
+
+/* background for the slides
+* --------------------------------------- */
+#slide1{
+  background-image: url(imgs/bg2.jpg);
+  padding: 6% 0 0 0;
+}
+#slide2{
+  background-image: url(imgs/bg5.jpg);
+  padding: 6% 0 0 0;
+}
+#breakout{
+  background-image: url(./image/breakout.png);
 }
