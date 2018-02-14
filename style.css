@@ -1,28 +1,3 @@
-/*body{
-  background-color: #212529;
-  color: white;
-  display: block;
-  font-family: 'Oxygen', sans-serif;
-}
-a{
-  padding-top: 100px;
-}
-h1{
-  font-family: 'Oxygen', sans-serif;
-}
-.inter-cover{
-  text-align: center;
-  position: absolute;
-  padding-top: 21%;
-  padding-left: 32%;
-  font-family: 'Oxygen', sans-serif;
-}
-.inner{
-  text-align: center;
-}
-.cover-container{
-  max-width: 42em;
-}
 /*navbar*/
 /*.nav-link{
   writing-mode: vertical-rl;
@@ -32,54 +7,6 @@ h1{
   font-family: 'Oxygen', sans-serif;
   float: left;
   /*z-index:*/
-}
-/*icon*/
-/*.me{
-  padding: inherit;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  /*position: absolute;
-}*/
-/* {
-    box-sizing: border-box;
-}
-body{
-  font-family: 'Permanent Marker', cursive;
-}
-h4{
-  margin: 0px 5px 0px 5px;
-  display: inline-block;
-}
-h1{
-  margin-top: 5px;
-}
-h3{
-  margin-bottom: 5px;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-.my-name{
-  margin: auto;
-  width: 30%;
-  padding: 10px;
-}
-.me{
-  text-align: left;
-  margin-top: 5px;
-  margin-left: 10px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-.header{
-  background-color: rgba(0, 0, 0, .6);
-}
-.nav-links{
-  text-align: right;
-}*/
 
 /* HELPER CLASSES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -125,7 +52,7 @@ a{
 	margin: 0;
 	padding: 0;
 	font-family: 'Oxygen', sans-serif;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 html {
@@ -241,7 +168,7 @@ nav {
 
 .open-menu ~ nav {
 	opacity: 1;
- 	padding: 80px 0;
+ 	padding: 10px 0;
 	z-index: 15;
 	height: calc(90vh - 70px);
 }
@@ -302,13 +229,13 @@ section {
 }
 
 h2 {
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
 	font-size: 4em;
 	margin-bottom: 20px;
 }
 
 h3 {
-	font-weight: 300;
+	/*font-weight: 300;*/
 	font-size: 2.8em;
 }
 
@@ -380,14 +307,31 @@ h3 {
 
 /* background for the slides
 * --------------------------------------- */
-#slide1{
-  background-image: url(imgs/bg2.jpg);
-  padding: 6% 0 0 0;
+#opentee{
+  background-image: url(./images/opentee.png);
+  /*filter: blur(2px);*/
+  /*padding: 6% 0 0 0;*/
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#slide2{
-  background-image: url(imgs/bg5.jpg);
-  padding: 6% 0 0 0;
+#venture{
+  background-image: url(./images/venture.png);
+  /*filter: blur(2px);*/
+  /*padding: 6% 0 0 0;*/
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #breakout{
-  background-image: url(./image/breakout.png);
+  background-image: url(./images/breakout.png);
+  /*filter: blur(3px);*/
+  /*padding: 6% 0 0 0;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*-----contact----*/
+.icon{
+  font-size: 100px;
+  color: white;
+  padding: 7px;
 }
