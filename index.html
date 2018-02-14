@@ -1,68 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Tony Phan</title>
-    <link href="https://fonts.googleapis.com/css?family=Oxygen|Baloo" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-    <!-- Nav bar -->
-  <div class="navbar-fixed">
-    <nav>
-      <div class='nav-wrapper'>
-        <img id="me" src="./images/tp.jpg">
+<!-- <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tony Phan</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="navbar-fixed">
+	    <nav>
+        <img class='me' src="./images/tp.jpg">
           <ul class="vertical menu">
             <li class="nav-link" herf='#'><a>Portfolio</a></li>
             <li class="nav-link" herf='#'><a>About</a></li>
             <li class="nav-link" herf='#'><a>Contact Me</a></li>
           </ul>
-      </div>
-    </nav>
-  </div>
+	    </nav>
+	  </div>
 
-  <div id="fullpage">
-    <section class="section active" data-anchor='home'>
-      <div class="home">
-        <div class="inter-cover">
-          <h1 class="cover-heading">I'm Tony Phan</h1>
-          <p class="lead">Nice to meet you!</p>
-          <h5>(Site is under construction. Please check out my <a href="http://www.linkedin.com/in/tonyphan125">LinkedIn</a> and <a href="https://github.com/rallysport206">GitHub</a>)</h5>
-          <div class="section">
-            <div class="section">
-            	<div class="slide" data-anchor="slide1"> Slide 1 </div>
-            	<div class="slide" data-anchor="slide2"> Slide 2 </div>
-            	<div class="slide" data-anchor="slide3"> Slide 3 </div>
-            	<div class="slide" data-anchor="slide4"> Slide 4 </div>
-            </div>
-          </div>
-          <div class="section">Three</div>
-          <div class="section">Four</div>
-        </div>
-      </div>
-    </section>
-  </div>
+		<div id="fullpage">
+	    <div class="section">
+				<h1 class="cover-heading">I'm Tony Phan</h1>
+				<p class="lead">Nice to meet you!</p>
+				<h5>(Site is under construction. Please check out my <a href="http://www.linkedin.com/in/tonyphan125">LinkedIn</a> and <a href="https://github.com/rallysport206">GitHub</a>)</h5>
+			</div>
 
-    <!-- <div class="navbar">
-      <ul>
-        <img id="me" src="./images/tp.jpg">
-        <li class="nav-link" herf='#'><a>Portfolio</a></li>
-        <li class="nav-link" herf='#'><a>About</a></li>
-        <li class="nav-link" herf='#'><a>Contact Me</a></li>
-      </ul>
-    </div> -->
+			<div data-anchor="portfolio" class="section">
+				<div class="section">Portfolio</div>
+	      <div class="section">About</div>
+	      <div class="section">Contact Me</div>
+			</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.extensions.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+ -->
 
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Designed by <a href="mailto:phan.tony125@gmail.com?Subject=Hello%20Tony!" target="_top">Tony Phan</a></p>
-        </div>
-      </footer>
-    </div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Baloo" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css">
+		<link rel="stylesheet" href="style.css">
+		<title>Tony Phan</title>
+	</head>
+	<body>
+		<header>
+		  <div class="header-top clearfix">
+		    <h1 class="l-left"><a href="#firstSection"><img id="me" src="./images/tp.jpg"></a></h1>
+		    <a class="l-right toggle-menu" href="#">
+		      <i></i>
+		      <i></i>
+		      <i></i>
+		    </a>
+		  </div>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.extensions.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+		  <nav class="hide">
+		    <ul id="menu">
+		      <li data-menuanchor="firstSection">
+		        <a href="#firstSection" title="First Section">Home</a>
+		      </li>
+		      <li data-menuanchor="secondSection">
+		        <a href="#secondSection" title="Second Section">Portfolio</a>
+		      </li>
+		      <li data-menuanchor="thirdSection">
+		        <a href="#thirdSection" title="Second Section">About</a>
+		      </li>
+		      <li data-menuanchor="fourthSection">
+		        <a href="#fourthSection" title="Fourth Section">Contact Me</a>
+					</li>
+					<li data-menuanchor="fourthSection">
+						<a href="./images/resume_tp.pdf" title="Fourth Section">Resume</a>
+		    </ul>
+		  </nav>
+		</header>
+
+		<div id="fullpage">
+		  <section class="vertical-scrolling typewriter">
+					<h2>I'm Tony Phan</h2>
+					<h3>Full Stack Developer</h3>
+	 				<h3>Nice to meet you!</h3>
+		  </section>
+			<section class="vertical-scrolling">
+				<div id='opentee' class="horizontal-scrolling">
+					<h2>Portfolio Project</h2>
+					<h3>Open-Tee</h3>
+				</div>
+				<div id='venture' class="horizontal-scrolling">
+					<h2>Project Two</h2>
+					<h3>Venture</h3>
+				</div>
+				<div id='breakout'class="horizontal-scrolling">
+					<div class="breakout">
+						<h2>Portfolio Three</h2>
+						<h3>Breakout</h3>
+					</div>
+				</div>
+			</section>
+		  <section class="vertical-scrolling">
+		    <h2>About Me</h2>
+		    <h3>Something about me</h3>
+		  </section>
+		  <section class="vertical-scrolling">
+		    <h2>Contact Me:</h2>
+				<a href="http://www.linkedin.com/in/tonyphan125"><i class="icon fab fa-linkedin"></i></a>
+				<a href="https://github.com/rallysport206"><i class="icon fab fa-github-square"></i></a>
+				<a href="mailto:phan.tony125@gmail.com?Subject=Hello%20Tony!"><i class="icon fas fa-envelope"></i>
+				<a href="./images/resume_tp.pdf"><i class="icon fas fa-file-alt"></i></a>
+				<p class="end">Thank you for stopping by!</p>
+		  </section>
+			<footer class="fixed">
+				<div class="inner">
+					<p>Designed by <a href="mailto:phan.tony125@gmail.com?Subject=Hello%20Tony!" target="_top">Tony Phan</a></p>
+				</div>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.extensions.min.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>
