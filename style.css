@@ -78,8 +78,8 @@ ul, li {
   text-align: left;
   margin-top: 5px;
   margin-left: 10px;
-  width: 70px;
-  height: 70px;
+  width: 63px;
+  height: 63px;
   border-radius: 50%;
 }
 
@@ -353,30 +353,6 @@ h3 {
   padding: 7px;
 }*/
 
-/* background for the slides
-* --------------------------------------- */
-#opentee{
-  background-image: url(./images/opentee_bg.png);
-  /*filter: blur(2px);*/
-  /*padding: 6% 0 0 0;*/
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-#venture{
-  background-image: url(./images/venture_bg.png);
-  /*filter: blur(2px);*/
-  /*padding: 6% 0 0 0;*/
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-#breakout{
-  background-image: url(./images/breakout_bg.png);
-  /*filter: blur(3px);*/
-  /*padding: 6% 0 0 0;*/
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 /*---cards in slider----*/
 .card {
   background-color: rgba(0,0,0,0.5);
@@ -417,6 +393,25 @@ h3 {
   color: white;
   padding: 18px;
 }
-.icon:hover {
+/*.icon:hover {
   box-shadow: 0 0 15px rgba(33,33,33,.2);
+}*/
+.tooltip- {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tool-link {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip-link:hover .tool-link {
+  visibility: visible;
 }
