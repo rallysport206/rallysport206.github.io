@@ -393,9 +393,9 @@ h3 {
   color: white;
   padding: 18px;
 }
-/*.icon:hover {
+.icon:hover {
   box-shadow: 0 0 15px rgba(33,33,33,.2);
-}*/
+}
 .tooltip- {
     position: relative;
     display: inline-block;
