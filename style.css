@@ -264,8 +264,6 @@ h3 {
 	border: 1px solid #24221F;
 }
 
-
-
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -315,7 +313,7 @@ h3 {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em; /* Adjust as needed */
   animation:
-    typing 3.5s steps(40, end),
+    typing 2s steps(40, end),
     blink-caret .5s step-end infinite;
 }
 .typewriter h3 {
@@ -327,7 +325,7 @@ h3 {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em; /* Adjust as needed */
   animation:
-    typing 3.5s steps(40, end),
+    typing 2s steps(40, end),
     blink-caret .5s step-end infinite;
 }
 
@@ -414,4 +412,9 @@ h3 {
 }
 .tooltip-link:hover .tool-link {
   visibility: visible;
+}
+/*------Portfolio links --------*/
+.students:hover {
+  text-decoration: underline;
+  font-size: 18px;
 }
