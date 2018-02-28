@@ -162,15 +162,15 @@ nav {
 	position: fixed;
 	top: 70px;
 	width: 100%;
-  -webkit-transition: all 3s;
-          transition: all 3s;
+  -webkit-transition: all 1s;
+          transition: all 1s;
 }
 
 .open-menu ~ nav {
 	opacity: 1;
  	padding: 10px 0;
 	z-index: 15;
-	height: calc(90vh - 70px);
+	height: calc(25vh - 30px);
 }
 
 nav ul {
@@ -193,8 +193,8 @@ nav li a {
 	display: block;
 	padding: 30px;
 	text-align: center;
-	-webkit-transition: background .3s;
-	        transition: background .3s;
+	-webkit-transition: background .1s;
+	        transition: background .1s;
 }
 
 nav li:nth-child(odd) a,
