@@ -170,7 +170,7 @@ nav {
 	opacity: 1;
  	padding: 10px 0;
 	z-index: 15;
-	height: calc(35vh - 40px);
+	height: calc(27vh - 30px);
 }
 
 nav ul {
