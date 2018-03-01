@@ -414,6 +414,9 @@ h3 {
   visibility: visible;
 }
 /*------Portfolio links --------*/
+a.students{
+  color: #00bcd4;
+}
 .students:hover {
   text-decoration: underline;
   font-size: 18px;
