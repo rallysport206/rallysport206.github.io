@@ -23,8 +23,8 @@ $('#fullpage').fullpage({
   menu: '#menu',
 
   afterLoad: function(anchorLink, index) {
-    $header_top.css('background', 'rgba(0, 47, 77, .3)');
-    $nav.css('background', 'rgba(0, 47, 77, .25)');
+    $header_top.css('background', 'rgba(0, 47, 77, .50)');
+    $nav.css('background', 'rgba(0, 47, 77,.80)');
     if (index == 5) {
         $('#fp-nav').hide();
       }
