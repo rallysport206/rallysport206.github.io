@@ -415,7 +415,7 @@ h3 {
 }
 /*------Portfolio links --------*/
 a.students{
-  color: #00bcd4;
+  color: #00bcd4; 
 }
 .students:hover {
   text-decoration: underline;
