@@ -394,6 +394,12 @@ h3 {
 .icon:hover {
   box-shadow: 0 0 15px rgba(33,33,33,.2);
 }
+/*#hoverText .text{
+  visibility: hidden;
+}
+#hoverText:hover .text{
+  visibility: visible;
+}*/
 .tooltip- {
     position: relative;
     display: inline-block;
@@ -415,7 +421,7 @@ h3 {
 }
 /*------Portfolio links --------*/
 a.students{
-  color: #00bcd4; 
+  color: #00bcd4;
 }
 .students:hover {
   text-decoration: underline;
